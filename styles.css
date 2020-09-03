@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5271ff;
+}
+
+#header-img {
+    font-family: 'Lustria', serif;
+    color: #f8a90c;
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+#nav-links {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lustria', serif;
+    padding: 1rem;
+}
+
+.nav-link:hover {
+    background-color: #f8a90c;
+    color:#5271ff;
+}
+
+#motto {
+    font-size: 6rem;
+    text-align: center;
+    color:#5271ff;
+    font-family: 'Lustria', serif;
+}
+
+#welcome {
+    padding-bottom: 4em;
+    padding-top: 0.1em;
+    background-color: #f8a90c;
+    text-align: center;
+}
+
+#form {
+    padding-bottom: 2em;
+}
+
+#email {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 3em;
+}
+
+#submit {
+    height: 50px;
+    width: 200px;
+    background-color: #5271ff;
+    color: #f8a90c;
+    font-family: 'Lustria', serif;
+    font-size: larger;
+    border: none;
+}
+
+#submit:hover {
+    background-color: #f8a90c;
+    color:#5271ff;
+    border: 2px solid #5271ff;
+}
+
+.grid {
+    display: flex;
+}
+
+#features {
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-family: 'Lustria', serif;
+    color: #f8a90c;
+    background-color: #5271ff;
+}
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 10vw;
+}
+
+#our-work {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #f8a90c;
+    text-align: center;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f8a90c;
+    background-color: #5271ff;
+    font-family: 'Lustria', serif;
+}
+
+.product{
+    width: 15rem;
+    margin-bottom: 3em;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #f8a90c;
+}
+
+.btn-pricing {
+    margin-top: 10px;
+    margin-bottom: 2em;
+    height: 50px;
+    width: 200px;
+    background-color: #f8a90c;;
+    color: #5271ff;
+    font-family: 'Lustria', serif;
+    font-size: larger;
+    border: none;
+}
+
+.btn-pricing:hover {
+    background-color: #5271ff;
+    color: #f8a90c;
+    border: 3px solid #f8a90c;
+}
+
+#credit {
+    padding: 1em;
+    margin: -0.5em;
+    background: #f8a90c;
+    color: #5271ff;
+    font-family: 'Lustria', serif;
+    text-align: center;
+}
+
+#submit {
+    height: 50px;
+    width: 200px;
+    background-color: #5271ff;
+    color: #f8a90c;
+    font-family: 'Lustria', serif;
+    font-size: larger;
+    border: none;
+}
+
